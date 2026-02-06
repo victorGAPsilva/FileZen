@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+logs/
+!logs/.gitkeep
+
+# VS Code
+.vscode/
+
+# System
+Thumbs.db
+Desktop.ini

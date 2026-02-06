@@ -1,0 +1,18 @@
+{
+    "monitored_folders": [
+        "Downloads",
+        "Documents",
+        "Desktop"
+    ],
+    "destination_folder": "Organizados",
+    "scan_interval_seconds": 60,
+    "organize_by_date": false,
+    "extensions": {
+        "Imagens": [".jpg", ".jpeg", ".png", ".gif", ".bmp", ".svg", ".webp", ".tiff"],
+        "Videos": [".mp4", ".avi", ".mov", ".mkv", ".wmv", ".flv", ".webm"],
+        "Documentos": [".pdf", ".doc", ".docx", ".txt", ".rtf", ".odt", ".xls", ".xlsx", ".csv", ".ppt", ".pptx"],
+        "Audio": [".mp3", ".wav", ".flac", ".aac", ".ogg", ".wma"],
+        "Compactados": [".zip", ".rar", ".7z", ".tar", ".gz", ".iso"],
+        "Executaveis": [".exe", ".msi", ".bat", ".cmd"]
+    }
+}
