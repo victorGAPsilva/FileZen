@@ -63,3 +63,5 @@ Você pode personalizar o comportamento editando o arquivo `config.json`:
 
 ---
 **FileZen** - Organização sem esforço.
+
+**SOBRE!!!!** -filezen ainda esta em desenvolvimeto futuras versões teram melhor funcionamento
