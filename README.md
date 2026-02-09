@@ -2,7 +2,7 @@
 
 O **FileZen** é um sistema leve e seguro que organiza seus arquivos digitais automaticamente, movendo-os para pastas categorizadas para manter seu computador limpo e produtivo.
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
 - **Monitoramento Automático**: Vigia pastas como Downloads e Documentos.
 - **Categorização Inteligente**: Separa arquivos por tipo (Imagens, Vídeos, Documentos, etc.).
@@ -10,7 +10,7 @@ O **FileZen** é um sistema leve e seguro que organiza seus arquivos digitais au
 - **Log de Atividades**: Mantém um histórico do que foi organizado na pasta `logs`.
 - **Modo Silencioso**: Pode rodar em segundo plano sem atrapalhar seu trabalho.
 
-## 🚀 Como Usar
+##  Como Usar
 
 ### Instalação e Execução (Windows)
 
@@ -29,7 +29,7 @@ O **FileZen** é um sistema leve e seguro que organiza seus arquivos digitais au
 4. **Parar**:
    - Para parar, você pode fechar a janela do terminal (se estiver aberta) ou finalizar o processo Python no Gerenciador de Tarefas.
 
-## ⚙️ Configuração (config.json)
+##  Configuração (config.json)
 
 Você pode personalizar o comportamento editando o arquivo `config.json`:
 
@@ -49,12 +49,12 @@ Você pode personalizar o comportamento editando o arquivo `config.json`:
 - **monitored_folders**: Lista de nomes de pastas padrão ou caminhos completos (ex: `"C:\\MeusArquivos"`).
 - **organize_by_date**: Mude para `true` se quiser subpastas por ano/mês dentro das categorias.
 
-## 🛠️ Requisitos Técnicos
+##  Requisitos Técnicos
 
 - **Python 3**: Necessário estar instalado no computador.
 - **Bibliotecas**: Utiliza apenas bibliotecas padrão do Python (leve e compatível).
 
-## 💡 Sugestões para o Futuro (Versão Pro)
+##  Sugestões para o Futuro 
 
 - Interface Gráfica (GUI) para configuração fácil.
 - IA para categorizar documentos pelo conteúdo (Faturas, Contratos).

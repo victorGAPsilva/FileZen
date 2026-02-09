@@ -22,11 +22,11 @@ class FileOrganizer:
         """Resolve caminhos de pastas do usuário como Downloads/Documentos."""
         user_home = Path.home()
         
-        # Mapeamento comum de pastas em inglês/português
+        # mapeamento comum de pastas em inglês/português
         common_folders = {
             "Downloads": user_home / "Downloads",
             "Documents": user_home / "Documents",
-            "Documentos": user_home / "Documents", # Windows redireciona
+            "Documentos": user_home / "Documents",
             "Desktop": user_home / "Desktop",
             "Área de Trabalho": user_home / "Desktop",
             "Pictures": user_home / "Pictures",
@@ -132,7 +132,7 @@ class FileOrganizer:
             
             try:
                 # Lista apenas arquivos no topo (não recursivo para evitar bagunça profunda)
-                # A menos que seja desejado recursividade, mas MVP geralmente é raiz da pasta.
+                # A menos que seja desejado recursividade, mas MVP geralmente e raiz da pasta.
                 for item in path.iterdir():
                     if item.is_file():
                         self.process_file(item, path)
