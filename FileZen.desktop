@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=FileZen
+Comment=Organizador de Arquivos
+Exec=bash -c 'cd /home/victor/Documentos/FileZen && ./filezen.sh'
+Icon=folder
+Terminal=false
+Type=Application
+Categories=Utility;FileManager;
+StartupNotify=true
